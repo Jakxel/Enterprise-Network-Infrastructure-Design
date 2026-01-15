@@ -86,12 +86,47 @@ The following tests were performed to validate the network:
 
 ## Project Structure
 ```text
-/diagrams
-  - network_diagram.png
-/configs
-  - router_configs.txt
-  - switch_configs.txt
-/docs
-  - ip_addressing_plan.md
-  - vlan_table.md
-README.md
+Enterprise Network Infrastructure Design/
+│
+├── README.md
+│
+├── diagrams/
+│   ├── logical_network_diagram.png
+│   ├── physical_topology_diagram.png
+│   └── vlan_segmentation_diagram.png
+│
+├── packet_tracer/
+│   └── technova_enterprise_network.pkt
+│
+├── configs/
+│   ├── core/
+│   │   └── core_router_config.txt
+│   │
+│   ├── distribution/
+│   │   ├── dist_switch_1_config.txt
+│   │   └── dist_switch_2_config.txt
+│   │
+│   └── access/
+│       ├── access_switch_1_config.txt
+│       ├── access_switch_2_config.txt
+│       └── access_switch_3_config.txt
+│
+├── docs/
+│   ├── project_overview.md
+│   ├── network_architecture.md
+│   ├── vlan_and_ip_addressing.md
+│   ├── routing_and_switching.md
+│   ├── security_design.md
+│   ├── high_availability.md
+│   ├── testing_and_validation.md
+│   └── assumptions_and_limitations.md
+│
+├── services/
+│   ├── dhcp_configuration.md
+│   ├── dns_configuration.md
+│   └── nat_configuration.md
+│
+└── appendix/
+    ├── device_inventory.md
+    ├── interface_mapping.md
+    └── command_reference.md

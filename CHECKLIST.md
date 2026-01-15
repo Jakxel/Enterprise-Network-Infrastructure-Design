@@ -6,16 +6,16 @@ This checklist outlines all phases and tasks for designing, configuring, and doc
 
 ## Phase 1 – Planning & Requirements
 
-- [ ] Define company profile  
-- [ ] Identify departments and user counts  
-- [ ] Define security requirements
-- [ ] Define internet and internal access needs  
-- [ ] Define scalability and growth assumptions  
-- [ ] Document scope (in-scope / out-of-scope)
+- [+] Define company profile  
+- [+] Identify departments and user counts  
+- [+] Define security requirements
+- [+] Define internet and internal access needs  
+- [+] Define scalability and growth assumptions  
+- [+] Document scope (in-scope / out-of-scope)
 
 **Deliverables**
-- [ ] `docs/project_overview.md`  
-- [ ] `docs/assumptions_and_limitations.md`
+- [+] `docs/project_overview.md`  
+- [+] `docs/assumptions_and_limitations.md`
 
 ---
 

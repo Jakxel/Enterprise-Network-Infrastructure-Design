@@ -21,56 +21,56 @@ This checklist outlines all phases and tasks for designing, configuring, and doc
 
 ## Phase 2 – High-Level Design
 
-- [ ] Select three-tier hierarchical architecture (Core, Distribution, Access)  
-- [ ] Justify architecture choice in documentation  
-- [ ] Select routing protocol (OSPF)  
-- [ ] Decide inter-VLAN routing method (L3 switch or router-on-a-stick)  
-- [ ] Identify core, distribution, and access layer roles
+- [+] Select three-tier hierarchical architecture (Core, Distribution, Access)  
+- [+] Justify architecture choice in documentation  
+- [+] Select routing protocol (OSPF)  
+- [+] Decide inter-VLAN routing method (L3 switch or router-on-a-stick)  
+- [+] Identify core, distribution, and access layer roles
 
 **Deliverables**
-- [ ] `docs/network_architecture.md`
+- [+] `docs/network_architecture.md`
 
 ---
 
 ## Phase 3 – VLAN & IP Addressing
 
-- [ ] Define VLAN IDs and names  
-- [ ] Assign departments to VLANs  
-- [ ] Design IP subnets per VLAN  
-- [ ] Define default gateways  
-- [ ] Decide DHCP vs static IP allocation  
-- [ ] Reserve addresses for infrastructure devices
+- [+] Define VLAN IDs and names  
+- [+] Assign departments to VLANs  
+- [+] Design IP subnets per VLAN  
+- [+] Define default gateways  
+- [+] Decide DHCP vs static IP allocation  
+- [+] Reserve addresses for infrastructure devices
 
 **Deliverables**
-- [ ] `docs/vlan_and_ip_addressing.md`
+- [+] `docs/vlan_and_ip_addressing.md`
 
 ---
 
 ## Phase 4 – Diagrams & Topology
 
-- [ ] Create logical network diagram  
-- [ ] Create physical topology diagram  
-- [ ] Show VLAN segmentation and trunk links  
-- [ ] Indicate routing points  
-- [ ] Indicate redundant links
+- [+]Create logical network diagram  
+- [+] Create physical topology diagram  
+- [+] Show VLAN segmentation and trunk links  
+- [+] Indicate routing points  
+- [+] Indicate redundant links
 
 **Deliverables**
-- [ ] `diagrams/logical_network_diagram.png`  
-- [ ] `diagrams/physical_topology_diagram.png`
+- [+] `diagrams/logical_network_diagram.png`  
+- [+] `diagrams/physical_topology_diagram.png`
 
 ---
 
 ## Phase 5 – Device Selection & Base Setup
 
-- [ ] Select router model(s)  
-- [ ] Select access and distribution switch models  
-- [ ] Place devices in Packet Tracer  
-- [ ] Connect devices using correct cables  
-- [ ] Label devices and interfaces  
-- [ ] Set hostnames on all devices
+- [+] Select router model(s)  
+- [+] Select access and distribution switch models  
+- [+] Place devices in Packet Tracer  
+- [+] Connect devices using correct cables  
+- [+] Label devices and interfaces  
+- [+] Set hostnames on all devices
 
 **Deliverables**
-- [ ] Base Packet Tracer topology
+- [+] Base Packet Tracer topology
 
 ---
 
